@@ -1,7 +1,7 @@
 data "terraform_remote_state" "vpc" {
   backend = "remote"
   config = {
-    organization = "nvibert"
+    organization = "nvibert-organization"
     workspaces = {
       name = "terraform-aws-sentinel"
     }
